@@ -45,6 +45,7 @@ while True:
         else:
             print("Extrato".center(20, "=") + "\n")
             print(extrato)
+            print(f"Saldo atual: R$ {saldo:.2f}")
             print("".center(20, "="))
     elif opcao == 4:
         break
